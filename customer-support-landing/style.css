@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    min-width: auto;
+}
+
+.row-padding{
+    padding: 20px 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.offset-white-bg {
+    background-color: #EFF7FF;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.logo span {
+    background: #00D5BC;
+    padding: 10px 20px;
+    border-radius: 0 25px 25px 30px;
+}
+
+.header-area {padding: 10px 0px;}
+
+.main-menu {flex: 1;padding: 0px 12px;}
+
+.main-menu ul {
+    list-style: none;
+}
+
+.main-menu ul a {
+    color: #32435C;
+    padding: 15px 10px;
+    display: inline-block;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.main-menu ul a:hover {
+    color: #0085FD;
+}
+
+.heder-link-btn {
+    flex: 1;
+    justify-content: end;
+    gap: 15px;
+}
+
+.btn-primary {
+    background-color: #0085FD;
+    color: #fff;
+}
+
+.btn-default {
+    padding: 5px 15px;
+    display: inline-block;
+    border-radius: 25px;
+    transition: .6s;
+}
+.btn-default:hover {
+    background: #001E4F;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #fff;
+    color: #0085FE;
+}
+
+.half-width {
+    flex: 1;
+}
+
+.half-width h1 {
+    font-size: 60px;
+    line-height: 56px;
+}
+
+.half-width p {
+    font-size: 20px;
+}
+
+.half-width .btn-default {
+    padding: 7px 40px;
+}
+
+.half-width .btn-default {
+    padding: 10px 30px;
+    margin-bottom: 80px;
+}
+
+
